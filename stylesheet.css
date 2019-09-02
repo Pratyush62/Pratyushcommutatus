@@ -1,0 +1,60 @@
+.toolbar {
+position:fixed; }
+body	{
+background-image:url("images/me.jpg"); }
+h1{
+	color:black;
+	text-align:center; 
+}
+.tooltext {
+	position:relative;
+	text-align:center;
+	color:black;
+	bottom:5px;
+}
+.box {
+top:5px;
+border-right:3px solid black;
+ transition: transform .2s;
+ 
+}
+.box:hover{
+	transform:scale(0.8);
+	background-color:white;
+}	
+h2{
+	font-size:80px;
+	color:red;
+	text-align:center;
+	text-decoration:underline;
+	}
+h3{
+	font-size:80px;
+	color:solid black;
+	text-align:center;
+	text-decoration:underline;
+}
+.first{
+	font-size:40px;
+	font-style: algeria;
+	color: white ;
+	padding-left : 250px;
+	padding-top : 30 px ;
+	text-transform : uppercase ;
+	font-weight : bold ;
+	text-decoration : underline ;
+	position:relative;
+	top:100px;
+
+}
+.box1{
+	
+  transition: transform .2s;
+}
+.box1:hover{
+	 transform:scale(0.8);
+}
+	
+
+
+	
